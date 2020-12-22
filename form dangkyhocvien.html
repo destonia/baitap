@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>đăng ký học viên</title>
+
+    <style>
+        form{
+            background-color: yellow;
+            width: 30%;
+        }
+        input{
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <h1 style="background-color: aquamarine;text-align: center">ĐĂNG KÝ HỌC VIÊN</h1>
+
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Họ và Tên</td>
+            <td>
+                <input type="text" name="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td>
+                <input type="date" name="date">
+            </td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <input type="radio"/>Nam<span><input type="radio"/>Nữ</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td>
+                <input type="text" name="address"style="height: 50px">
+            </td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td>
+                <input type="number" name="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style="text-align: right">
+                    <input type="submit" name="btsubmit" value="Đăng ký">
+                </p>
+            </td>
+            <td>
+                <p>
+                    <input type="reset"name="btreset" value="Nhập lại">
+                </p>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
