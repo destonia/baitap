@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sở thích của bạn</title>
+    <style>
+    .hobby{
+    color: orange;
+    }
+    </style>
+</head>
+<body>
+
+<div style="width: 30%;margin: auto">
+    <h1 style="color: white;background-color: red;text-align: center">Sở thích của bạn</h1>
+
+    <div style="text-align: center;"><form method="get" action="simpleform.html">
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="yourname" style="width: 100%"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Email</td>
+                <td><input type="text" name="youremail" style="width: 100%"/></td>
+            </tr>
+
+        </table>
+
+        <p style="text-align: left">Sở thích</p>
+    <div class="hobby"><input type="radio" name="hobby"/>Thể thao
+            <input type="radio" name="hobby"/>Âm nhạc
+            <input type="radio" name="hobby"/>Đọc sách<br>
+            <input type="radio" name="hobby"/>Lướt web
+            <input type="radio" name="hobby"/>Chơi game
+            <input type="radio" name="hobby"/>Điện ảnh<br>
+            <input type="radio" name="hobby"/>Du lịch<br>
+        </div>
+        <p><input type="submit" name="btsubmit" value="Gửi thông tin"/>
+            <span><input type="reset" name="reset" value="Nhập lại"/></span></p>
+
+    </form>
+    </div>
+</div>
+</body>
+</html>
